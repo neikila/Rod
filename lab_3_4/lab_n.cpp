@@ -207,4 +207,8 @@ int main() {
     }
     cout << "Result:" << endl;
     output(mas);
+
+    for (int i = 0; i < mas.size(); ++i) {
+        cout << "X" << i + 1 << " = " << mas[i][0] << endl;
+    }
 }
